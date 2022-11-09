@@ -1,0 +1,98 @@
+.advantages,
+.attractive {
+    z-index: 30;
+    position: relative;
+    background-color: #fff;
+
+    .wrap {
+        padding: 192px 232px;
+    }
+
+    h2.title {
+        color: #333A4A;
+        width: 911px;
+        display: flex;
+        flex-direction: column;
+
+        svg {
+            margin: 0;
+            margin-top: 40px;
+        }
+    }
+
+    &__text {
+        margin-top: 64px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 150%;
+        color: #333A4A;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 150px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin-bottom: 60px;
+        padding-left: 15px;
+    }
+
+    &__name,
+    &__descr {
+        font-family: 'acumin-pro-extra-condensed';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 100%;
+        text-transform: uppercase;
+        color: #333A4A;
+    }
+
+
+    &__name {
+        position: relative;
+
+        &::before {
+            content: url('../img/icons/advantages.svg');
+            position: absolute;
+            top: 0;
+            left: -15px;
+        }
+    }
+
+    &__descr {
+        font-size: 24px;
+        margin-top: 5px;
+    }
+
+    .btn {
+        margin-top: 64px;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 80%;
+        color: #333A4A;
+        &:hover {
+            color: #fff;
+        }
+    }
+
+    &_uber {
+        padding-bottom: 150px;
+    }
+    .waves-wrap {
+        position: absolute;
+        left: 50%;
+        top: -2%;
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+    }
+}

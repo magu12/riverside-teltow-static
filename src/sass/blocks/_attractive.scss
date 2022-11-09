@@ -1,0 +1,41 @@
+.attractive {
+    position: relative;
+
+    .wrap {
+        padding: 192px 0px;
+    }
+
+    h2.title {
+        width: 1050px;
+        padding-left: 232px;
+    }
+
+    .advantages__text {
+        width: 1150px;
+        font-weight: 300;
+        font-size: 18px;
+        padding-left: 232px;
+    }
+
+    .waves-wrap {
+        position: absolute;
+        left: 0;
+        top: 13%;
+        width: 50%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    &__content {
+        margin-top: 64px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &__table {
+        width: 430px;
+        object-fit: contain;
+        object-position: top;
+    }
+}

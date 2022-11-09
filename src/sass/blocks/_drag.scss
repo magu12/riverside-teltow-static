@@ -1,0 +1,74 @@
+.sl-container {
+    border: 2px solid #333A4A;
+    overflow: hidden;
+    position: relative;
+    width: 911px;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+.sl-container .view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.sl-container .view img {
+    width: 911px;
+    max-width: 911px;
+}
+
+.sl-container .view-before {
+    z-index: 100;
+}
+
+.sl-container .view-after {
+    width: 100px;
+    z-index: 200;
+}
+
+.sl-container .dragme {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    top: 0px;
+    left: 0;
+    background-color: #333A4A;
+    cursor: pointer;
+    z-index: 300;
+}
+
+.sl-container .dr-circle {
+    position: absolute;
+    top: calc(50% - 20px);
+    left: 0px;
+    transform: translateX(-48%);
+    border-radius: 100%;
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    background-color: #333A4A;
+    cursor: pointer;
+    z-index: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7px;
+
+    &__right {
+        transform: rotate(180deg);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sl-container {
+        width: 320px;
+        height: 210px;
+    }
+
+    .sl-container .view img {
+        width: 320px;
+        max-width: 320px;
+    }
+}

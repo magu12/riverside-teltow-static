@@ -1,0 +1,11 @@
+.waves{
+    position: absolute;
+    top: 12%;
+    left: -50%;
+    z-index: -1;
+    display: flex;
+    svg {
+        position: relative;
+    }
+    
+}

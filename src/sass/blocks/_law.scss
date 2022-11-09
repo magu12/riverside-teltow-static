@@ -1,0 +1,36 @@
+.law {
+    margin-bottom: 300px;
+    .logo {
+        display: block;
+        width: max-content;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-top: 64px;
+        margin-bottom: 100px;
+    }
+
+    .wrap {
+        padding: 0px 240px;
+    }
+
+    h2.title {
+        color: #333A4A;
+        width: 911px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 64px;
+
+        svg {
+            margin: 0;
+            margin-top: 40px;
+        }
+    }
+
+    h5 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        color: #333A4A;
+    }
+}

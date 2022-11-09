@@ -1,0 +1,61 @@
+.footer {
+    background: #333A4A;
+    position: relative;
+    z-index: 30;
+    width: 100%;
+
+    .logo {
+        position: absolute;
+        width: 192px;
+        height: 192px;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .wrap {
+        padding-top: 141px;
+        padding-bottom: 96px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    ul {
+        padding: 0 330px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+        li {
+            cursor: pointer;
+            font-family: 'acumin-pro-extra-condensed';
+            list-style: none;
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 120%;
+            text-align: center;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            font-feature-settings: 'pnum'on, 'lnum'on;
+            color: #FFFFFF;
+        }
+    }
+
+    .linkedin {
+        margin-top: 46px;
+    }
+
+    .copyright,
+    &__links, a {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
